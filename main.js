@@ -26,7 +26,7 @@ while (true) {
  var messageColor = "";
  var photo = "";
 
- while (true) {
+ while (memory) {
    color = prompt ('Введите цвет телефона (black, gold, silver)');
   if (color === null) {
     messageColor = 'Вы не ввели цвет. Пока!';
