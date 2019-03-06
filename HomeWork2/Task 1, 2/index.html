@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task 1,2</title>
+  <style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .area {
+    width: 400px;
+    height: 400px;
+    border: 4px solid red;
+    margin: 100px auto;
+    position: relative;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .sguare {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  </style>
+</head>
+
+<body>
+  <input type="color" id="colorInput"> <br><br>
+  <label>
+  <input type="radio" name="figure"> <br>Квадрат
+</label> <br>
+
+<label>
+  <input type="radio" name="figure"> <br>Круг
+</label> <br><br><br>
+
+<div class = "number">
+<label>Введите сторону квадрата
+  <input type="number" min="1" max="500" id="newWidth">
+  </label>
+</div>
+  <div class="area" id="area">
+   
+  </div>
+  <script src="main3.js"></script>
+ </body>
+
+</html>
